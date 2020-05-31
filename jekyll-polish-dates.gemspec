@@ -2,7 +2,7 @@ require_relative 'lib/jekyll/polish_dates/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-polish-dates"
-  spec.version       = Jekyll::PolishsDates::VERSION
+  spec.version       = Jekyll::PolishDates::VERSION
   spec.authors       = ["Damian Rzeszot"]
   spec.email         = ["damian.rzeszot@gmail.com"]
 
