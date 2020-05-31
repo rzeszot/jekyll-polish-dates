@@ -6,8 +6,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Damian Rzeszot"]
   spec.email         = ["damian.rzeszot@gmail.com"]
 
-  spec.summary       = ""
-  spec.description   = ""
+  spec.summary       = "A Jekyll plugin to render a Polish dates"
   spec.homepage      = "https://rzeszot.pro/project/jekyll-polish-dates"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
@@ -15,12 +14,8 @@ Gem::Specification.new do |spec|
   spec.metadata["source_code_uri"] = "https://github.com/rzeszot/jekyll-polish-dates"
   spec.metadata["changelog_uri"] = "https://rzeszot.pro/project/jekyll-polish-dates/changelog"
 
-  spec.files         = [
-                        "lib/jekyll/polish_dates.rb",
-                        "lib/jekyll/polish_dates/version.rb"
-                       ]
-
-  spec.bindir        = "exe"
-  spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
+  spec.files         = `git ls-files lib`.split("\n")
+  spec.platform      = Gem::Platform::RUBY
   spec.require_paths = ["lib"]
+  spec.license       = "MIT"
 end
