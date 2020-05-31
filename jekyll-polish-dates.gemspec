@@ -6,8 +6,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Damian Rzeszot"]
   spec.email         = ["damian.rzeszot@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = ""
+  spec.description   = ""
   spec.homepage      = "https://rzeszot.pro/project/jekyll-polish-dates"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
